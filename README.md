@@ -89,7 +89,7 @@ kubectl get nodes
 
 kubectl port-forward svc/grafana 3000:3000 -n monitoring
 
-http://localhost:3000
+http://publicIP:3000
 
 ## Features
 
@@ -102,4 +102,5 @@ Monitoring stack with Grafana dashboards, Prometheus metrics, and Node Exporter.
 Supports multi-AZ private subnets for high availability.
 
 Easy access and management using kubectl and aws eks update-kubeconfig.
+
 
